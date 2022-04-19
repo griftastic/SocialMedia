@@ -4,14 +4,14 @@
     "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj": {
+    "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
-        "projectName": "SocialMedia.WebAPI",
-        "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
+        "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj",
+        "projectName": "SocialMedia.Data",
+        "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj",
         "packagesPath": "/Users/griffinbrown/.nuget/packages/",
-        "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/obj/",
+        "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/griffinbrown/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,195 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj",
+        "projectName": "SocialMedia.Models",
+        "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj",
+        "packagesPath": "/Users/griffinbrown/.nuget/packages/",
+        "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/griffinbrown/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj",
+        "projectName": "SocialMedia.Services",
+        "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj",
+        "packagesPath": "/Users/griffinbrown/.nuget/packages/",
+        "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/griffinbrown/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj": {
+                "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj"
+              },
+              "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj": {
+                "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
+        "projectName": "SocialMedia.WebAPI",
+        "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
+        "packagesPath": "/Users/griffinbrown/.nuget/packages/",
+        "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/griffinbrown/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj": {
+                "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj"
+              },
+              "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj": {
+                "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj"
+              },
+              "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj": {
+                "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
