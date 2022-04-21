@@ -12,6 +12,9 @@ namespace SocialMedia.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<ReplyEntity> Replies { get; set; }
+       
         
         public DbSet<UserEntity> Users { get; set; } 
         public DbSet<CommentEntity> Comment { get; set;}
