@@ -9672,19 +9672,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/griffinbrown/.nuget/packages/": {}
+    "/Users/armondjones/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
+      "projectUniqueName": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
       "projectName": "SocialMedia.WebAPI",
-      "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
-      "packagesPath": "/Users/griffinbrown/.nuget/packages/",
-      "outputPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.WebAPI/obj/",
+      "projectPath": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.WebAPI/SocialMedia.WebAPI.csproj",
+      "packagesPath": "/Users/armondjones/.nuget/packages/",
+      "outputPath": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/griffinbrown/.nuget/NuGet/NuGet.Config"
+        "/Users/armondjones/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -9696,14 +9696,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj": {
-              "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj"
+            "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj": {
+              "projectPath": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Data/SocialMedia.Data.csproj"
             },
-            "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj": {
-              "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj"
+            "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj": {
+              "projectPath": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Models/SocialMedia.Models.csproj"
             },
-            "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj": {
-              "projectPath": "/Users/griffinbrown/Desktop/ElevenFiftyAcademy140.nosync/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj"
+            "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj": {
+              "projectPath": "/Users/armondjones/Desktop/Blue Badge/SocialMedia/SocialMedia.Services/SocialMedia.Services.csproj"
             }
           }
         }
