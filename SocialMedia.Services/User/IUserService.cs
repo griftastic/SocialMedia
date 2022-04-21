@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Services.User
 {
-    public interface IUserService
+public interface IUserService
     {
-         
+        Task<bool> RegisterUserAsync(UserRegister model);
+        Task<UserDetail> GetUSerIdAsync(int userId);
     }
 }

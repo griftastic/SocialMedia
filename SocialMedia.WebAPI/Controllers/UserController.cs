@@ -13,5 +13,15 @@ namespace SocialMedia.WebAPI.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _service;
+        [HttpGet("{userId:int}")]
+        public async Task<IActionResult> GetById([FromRoute] int userId)
+        {
+            var userDetail = await _service.GetUSerIdAsync(userId);
+            if (userDetail is null)
+            {
+                return NotFound();
+            }
+            return Ok(userDetail);
+        }
     }
 }
