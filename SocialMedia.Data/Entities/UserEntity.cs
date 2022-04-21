@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Microsoft.AspNetCore.Identity;
+
 
 namespace SocialMedia.Data.Entities
 {
@@ -22,4 +24,12 @@ namespace SocialMedia.Data.Entities
        [Required]
        public DateTime DateCreated {get; set;}
     }
+    var entity = new UserEntity
+    {
+        Email = model.Email,
+        Username = model.Username,git
+        DateCreated = DateTime.Now
+    };
+    var passwordHasher = new PasswordHasher<UserEntity.();
+    entity.Password = passwordHasher.HashPassword(entity, model.Password);
 }
