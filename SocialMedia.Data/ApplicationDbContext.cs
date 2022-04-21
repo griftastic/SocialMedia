@@ -13,6 +13,7 @@ namespace SocialMedia.Data
         {
         }
         
-        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<UserEntity> Users { get; set; } 
+        public DbSet<CommentEntity> Comment { get; set;}
     }
 }
