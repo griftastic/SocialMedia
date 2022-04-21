@@ -14,6 +14,6 @@ namespace SocialMedia.Data
         }
         
         public DbSet<UserEntity> Users { get; set; }
-        public DbSet<Post> Post { get; set; }
+        public DbSet<PostEntity> Post { get; set; }
     }
 }
